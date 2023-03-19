@@ -80,13 +80,13 @@ class _MyAppState extends State<MyApp> {
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
         fontFamily: 'Raleway',
         textTheme: ThemeData.light().textTheme.copyWith(
-            bodyMedium: TextStyle(
+            bodyMedium: const TextStyle(
               color: Color.fromRGBO(20, 51, 51, 1),
             ),
-            bodySmall: TextStyle(
+            bodySmall: const TextStyle(
               color: Color.fromRGBO(20, 51, 51, 1),
             ),
-            titleMedium: TextStyle(
+            titleMedium: const TextStyle(
               fontSize: 20,
               fontFamily: 'RobotoCondensed',
               fontWeight: FontWeight.bold,
